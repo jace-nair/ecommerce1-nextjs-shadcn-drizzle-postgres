@@ -1,4 +1,6 @@
-import { cwd } from 'node:process'
+//import { cwd } from 'node:process'
+import { cwd } from 'node:process';
+
 import { loadEnvConfig } from '@next/env'
 
 import { drizzle } from "drizzle-orm/node-postgres";
